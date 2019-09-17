@@ -36,7 +36,7 @@ Author:         Suelo
 ================================================*/
 preloader: function (){
 
-	$(window).on('load', function(){
+	$(window).ready(function(){
 		$('#preloader').fadeOut('slow',function(){$(this).remove();});
 	});
 },
@@ -143,6 +143,7 @@ workTab: function (){
 
     // filter items on button click
     $('#filters').on( 'click', 'button', function() {
+      console.log('filter')
     	var filterValue = $(this).attr('data-filter');
     	$container.isotope({ filter: filterValue });
     });
