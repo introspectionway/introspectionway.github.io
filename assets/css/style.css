@@ -25,6 +25,23 @@ body {
 h4 {
     margin-bottom: 20px !important;
 }
+ul.nav {
+  text-align: center;
+  font-size: 22px;
+}
+ul.nav li {
+  display: inline-block;
+}
+section.part4 {
+  text-align: center;
+  padding: 30px 50px;
+}
+section.part4 h3 {
+}
+section.part4 div {
+  max-width: 1100px;
+  margin: auto;
+}
 div#preloader { 
 	position: fixed; 
 	left: 0;
